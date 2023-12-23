@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.TodoList{
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+}
+
+.TodoInner{
+  padding: 60px 100px;
+  height: 100vh;
+}
+
+h1{
+  font-size: 48px;
+  color: aliceblue;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h2{
+  color: aliceblue;
+  margin: 20px 0;
+}
+
+.TodoInner input{
+  width: 350px;
+  height: 39px;
+  border-radius: 10px 15px 15px 10px;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.TodoInner button{
+  padding: 8px 20px;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: .5s ease-in-out;
+  outline: none;
+}
+
+.add{
+  margin-left: -75px;
+  background-color: cornflowerblue;
+}
+
+.TodoInner .complete{
+  background-color: green;
+}
+.TodoInner .delete{
+  background-color: red;
+  margin-left: 20px;
+}
+
+.TodoInner button:hover{
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  color: black;
+}
+
+.TodoInner ul li{
+  margin: 20px 0;
+}
+
+.TodoInner ul li span{
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: aliceblue;
+  display: block;
+  margin: 10px 0;
+}
+
+.Complete-Task li {
+  display: flex;
+  align-items: center;
+}
